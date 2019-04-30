@@ -6,7 +6,6 @@
     "editor.wordWrapColumn": 120,
     "editor.accessibilitySupport": "off",
     "editor.codeLens": false,
-    "editor.emptySelectionClipboard": false,
     "editor.gotoLocation.multiple": "gotoAndPeek",
     "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "all",
@@ -31,5 +30,6 @@
     "search.smartCase": true,
     "search.useIgnoreFiles": false,
     "terminal.integrated.confirmOnExit": true,
-    "terminal.integrated.cursorBlinking": true
+    "terminal.integrated.cursorBlinking": true,
+    "window.openFilesInNewWindow": "on"
 }
