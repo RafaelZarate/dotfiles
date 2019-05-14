@@ -1,6 +1,4 @@
-
-# GIT
-
+# git
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
@@ -11,7 +9,15 @@ gacp() {
     git add . && git commit -m $1 && git push
 }
 
-# docker
 
+# docker
 alias dc='docker-compose'
+alias dcl='docker-compose logs'
+alias dkps="docker ps --format '{{.ID}} ~ {{.Names}} ~ {{.Status}} ~ {{.Image}}'"
+alias dk='docker'
+alias dkl='docker logs -f'
+
+
+# other
+alias speedtest='speedtest-cli'
 
